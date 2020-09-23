@@ -1,14 +1,14 @@
-# Familiarization with the convertor
+# 1. Familiarization with the convertor
 print('Converter for PRESSURE measure units')
 print('Available measure units are Pa, at, bar, mmHg')
 
 
-# Input data
+# 2. Input data
 value = float(input('Enter the value of pressure '))
 unit = input('Enter the unit of this value ')
 
 
-# Calculations and output
+# 3. Calculations and output
 if unit == 'Pa':
     print('Other units: ' + str(value / 101325) + ' at' + '\t' + str(value / 100000) +
           ' bar' + '\t' + str(value / 133.32) + ' mmHg')
